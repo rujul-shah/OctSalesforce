@@ -3,6 +3,7 @@ import java.util.*;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -15,6 +16,8 @@ public class BaseTest {
 		public static ExtentTest test;
 		public static ExtentHtmlReporter htmlreporter;
 		public static String sReportTime;
+		public static SoftAssert sa;
+		public static String sBrowserName;
 		
 		
 		
