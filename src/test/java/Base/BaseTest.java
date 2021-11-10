@@ -14,6 +14,7 @@ public class BaseTest {
 		public static ExtentReports report;
 		public static ExtentTest test;
 		public static ExtentHtmlReporter htmlreporter;
+		public static String sReportTime;
 		
 		
 		
