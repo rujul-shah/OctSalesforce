@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-22T00:07:10Z" name="Suite" finished-at="2021-11-22T00:07:31Z" duration-ms="20340">
+    <groups>
+    </groups>
+    <test started-at="2021-11-22T00:07:10Z" name="Test" finished-at="2021-11-22T00:07:31Z" duration-ms="20340">
+      <class name="TestCases.AfterLogin">
+        <test-method is-config="true" signature="initializeReport()[pri:0, instance:TestCases.AfterLogin@46271dd6]" started-at="2021-11-21T16:07:10Z" name="initializeReport" finished-at="2021-11-21T16:07:11Z" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method is-config="true" signature="Initialization(java.lang.reflect.Method, java.lang.String, java.lang.Boolean)[pri:0, instance:TestCases.AfterLogin@46271dd6]" started-at="2021-11-21T16:07:11Z" name="Initialization" finished-at="2021-11-21T16:07:15Z" duration-ms="4368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.AfterLogin.tc05DropDown() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method signature="tc05DropDown()[pri:0, instance:TestCases.AfterLogin@46271dd6]" started-at="2021-11-21T16:07:15Z" name="tc05DropDown" finished-at="2021-11-21T16:07:27Z" duration-ms="11934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05DropDown -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:TestCases.AfterLogin@46271dd6]" started-at="2021-11-21T16:07:27Z" name="closure" finished-at="2021-11-21T16:07:30Z" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.AfterLogin@46271dd6]" started-at="2021-11-21T16:07:30Z" name="tearDown" finished-at="2021-11-21T16:07:31Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.AfterLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

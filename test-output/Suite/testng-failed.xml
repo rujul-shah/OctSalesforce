@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <parameter name="Browsername" value="Chrome"/>
+    <parameter name="Headless" value="false"/>
+    <classes>
+      <class name="TestCases.AfterLogin">
+        <methods>
+          <include name="Initialization"/>
+          <include name="initializeReport"/>
+          <include name="tearDown"/>
+          <include name="tc05DropDown"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- TestCases.AfterLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
