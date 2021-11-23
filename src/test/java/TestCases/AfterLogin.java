@@ -39,7 +39,7 @@ public class AfterLogin extends BaseTest {
 	@Test
 	public void tc06MyProfile()
 	{
-		
+		afp=new afterLoginPage(driver);
 	}
 
 }
